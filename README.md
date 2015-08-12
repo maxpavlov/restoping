@@ -1,2 +1,5 @@
 # restoping
-Node.js rest ping responder
+Node.js rest ping responder.
+
+Abu - Dhabi
+Marco - Polo
