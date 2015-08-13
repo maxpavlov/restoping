@@ -9,13 +9,13 @@ router.get('/:address', function(req, res) {
   var address = req.params.address.toUpperCase();
   switch (address) {
     case 'Abu'.toUpperCase():
-      res.send('Dhabi');
+      res.json('Dhabi');
       break;
     case 'Marco'.toUpperCase():
-      res.send('Polo');
+      res.json('Polo');
       break;
     default:
-      res.send('');
+      res.json('');
       break;
   }
 });
